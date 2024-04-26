@@ -7,3 +7,7 @@ Aplicativo - Fácil acesso, Lógica simples, e design moderno
 Página de Integrantes
 Página com interação
 
+Login para FIGMA:
+grupochallengefiap@outlook.com
+Senha:
+Fiap3U*&^
