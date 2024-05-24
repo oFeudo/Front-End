@@ -1,0 +1,120 @@
+/* SM => SMall */
+@media (min-width:479.99px) and (max-width:599.98px){
+    .headerPrincipal{
+        height: 100px;
+    }
+    header{
+        height: 100px;
+    }
+    nav, .header_dir{
+        display: none;
+    }
+
+    #caixaIndex{
+        margin: auto;
+        margin-top: 70%;  
+        margin-bottom: 6%;  
+        text-align: center;    
+        border: solid 1px #00A3FF;
+        width: 300px;
+        height: 130px;
+        border-radius: 22px;     
+    }
+
+        
+h2{
+    color: #00A3FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#diagnosticoVeiculo{
+    background-color: #00A3FF;
+    border: 0;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;    
+    font-size: 15px;
+    color: #ffffff;    
+}
+
+#txtPagina2{
+    font-size: 15px;
+}
+
+.botao2{
+    background-color: #00A3FF;
+    border: 0;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #ffffff;
+    width: 120px;
+    height: 30px;    
+}
+
+#txtCaixaCadastro{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+#caixaCadastro{
+    width: 270px;
+    height: 500px;
+    text-align: inherit;
+    font-size: 19px;
+    margin: auto;    
+    margin-top: 40%;
+    margin-bottom: 5%;
+    border: solid 1px #00A3FF;
+    border-radius: 5px;
+}
+.cadastroVeiculo{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;    
+    margin-bottom: 25px;
+    margin-left: 38px;       
+}
+
+#inputVeiculo{
+    height: 30px;
+    width: 190px;        
+    background-color: aliceblue;  
+    border: solid 1px black;
+}
+
+.botao3{
+    background-color: #00A3FF;
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #ffffff;
+    width: 110px;
+    height: 40px;    
+}
+
+.botao3:hover{
+    background-color: aliceblue;
+    color: #00A3FF;
+}
+
+#botaoAvancar{
+    float: right;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+
+#botaoVoltar{
+    float: left;
+    margin-left: 7%;
+    margin-top: 30px;
+}
+
+.txtInputVeiculo{
+    margin-bottom: 0px;
+}
+
+}

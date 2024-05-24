@@ -1,0 +1,54 @@
+/* XL => eXtra Large */
+@media (min-width:1200px){
+    header{
+        height: 150px;
+    } 
+    #txtCaixaCadastro{
+            font-size: 30px;
+        }
+    #caixaCadastro{
+            width: 800px;
+            height: 550px;
+            text-align: center;
+            font-size: 30px;
+            margin: auto;    
+            margin-top: 10%;
+            margin-bottom: 5%;
+            border: solid 1px #00A3FF;
+            border-radius: 22px;
+        }
+    .cadastroVeiculo{
+            float: left;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: left;
+            margin-top: 5px;
+            margin-bottom: 50px;
+            margin-left: 65px;
+            margin-right: 65px;    
+        }
+        
+    #inputVeiculo{
+            height: 40px;
+            width: 260px; 
+            margin-top: 1%; 
+            background-color: aliceblue;  
+            border: solid 1px black;
+        }
+    
+    .botao3{
+            background-color: #00A3FF;
+            border: 0;
+            border-radius: 10px;
+            font-size: 20px;
+            color: #ffffff;
+            width: 200px;
+            height: 60px;    
+        }
+        
+    .botao3:hover{
+            background-color: aliceblue;
+            color: #00A3FF;
+        }    
+    
+}

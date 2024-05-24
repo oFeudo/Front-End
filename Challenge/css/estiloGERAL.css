@@ -1,0 +1,265 @@
+
+#caixa_login{
+    width: 370px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;    
+    border: solid 1px #a0a0a0;
+    box-shadow: 2px 2px 2px 2px  rgb(0 0 0 / 20%);
+} 
+
+#caixa_cadastro{
+    width: 370px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5%;
+    border: solid 1px #a0a0a0;
+    box-shadow: 2px 2px 2px 2px  rgb(0 0 0 / 20%);
+}
+
+#porto_logo{
+    width: 50px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 2%; 
+    margin-right: 10%;   
+}
+
+#entrar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+    color: #00A3FF;
+    margin-left: 9%;
+    margin-top: 0%;
+    margin-right: 50%;
+    margin-bottom: 0%;
+}
+
+.inputLogin{
+    margin-top: 2px;
+}
+
+.txtLogin{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    margin-left: 9%;
+    margin-bottom: 0%;
+}
+
+.labelLogin{
+    background-color: #f0f0f0;
+    height: 36px;
+    width: 300px;
+    border: solid 1.2px #d2d0d0;
+    margin-left: 9%;
+    margin-top: 0%;
+}
+
+.labelLogin:focus{
+    outline-color: rgb(0, 106, 192);
+    background-color: aliceblue;
+}
+
+#botaoInscrever{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 38px;
+    width: 100px;    
+    color: #00A3FF;
+    background: none;
+    border: none;
+    float: left;
+    margin-left: 26px;  
+    margin-top: 20px;   
+}
+
+#botaoInscrever:hover{
+    color: rgb(0, 66, 124);
+}
+
+#botaoEntrar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 38px;
+    width: 100px;
+    background-color: #00A3FF;
+    color: white;
+    float: right;
+    margin-right: 9%;  
+    margin-top: 20px;  
+    border: 2px solid #00A3FF;  
+}
+
+#botaoContinuar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 38px;
+    width: 100px;
+    background-color: #00A3FF;
+    color: white;
+    float: right;
+    margin-right: 9%;  
+    margin-top: 35px;  
+    border: 2px solid #00A3FF;  
+}
+
+
+#botaoEntrar:hover{
+    background-color: aliceblue;
+    color: #00A3FF;
+}
+
+#botaoContinuar:hover{
+    background-color: aliceblue;
+    color: #00A3FF;
+}
+
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100px;   
+    background-color: #00A3FF;   
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 100px;   
+    background-color: #00A3FF;            
+}
+
+#porto_logo_header{
+    height: 70px;  
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    border-radius: 15px;     
+}
+
+
+
+h2{
+    color: #00A3FF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+#caixaIndex{
+    margin: auto;
+    margin-top: 15%;  
+    margin-bottom: 6%;  
+    text-align: center;    
+    border: solid 1px #00A3FF;
+    width: 500px;
+    height: 270px;
+    border-radius: 22px;     
+}
+
+#diagnosticoVeiculo{
+    background-color: #00A3FF;
+    border: 0;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;    
+    font-size: 30px;
+    color: #ffffff;    
+}
+
+#diagnosticoVeiculo:hover{
+    background-color: aliceblue;
+    color: #00A3FF;
+}
+
+.botao2{
+    background-color: #00A3FF;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;    
+}
+
+.botao2:hover{
+    background-color: aliceblue;
+    color: #00A3FF;
+}
+
+
+#botaoAdicionar{
+    margin-left: 20px;
+}
+
+
+#botaoVoltar{
+    float: left;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+
+#botaoAvancar{
+    float: right;
+    margin-right: 9%;
+    margin-top: 30px;
+}
+
+/* Dropdown Button */
+.dropbtn {    
+    padding: 0;    
+    border: none;   
+  }
+
+#botaoHeader {
+    height: 65px;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+  

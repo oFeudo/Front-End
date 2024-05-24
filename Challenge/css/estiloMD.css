@@ -1,0 +1,83 @@
+/* MD => MeDium */
+@media (min-width:599.99px) and (max-width:991.98px){
+    h2{
+        color: #00A3FF;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    } 
+    
+    #caixaIndex{
+        margin: auto;
+        margin-top: 20%;  
+        margin-bottom: 6%;  
+        text-align: center;    
+        border: solid 1px #00A3FF;
+        width: 500px;
+        height: 270px;
+        border-radius: 22px;     
+    }
+
+    #diagnosticoVeiculo{
+        background-color: #00A3FF;
+        border: 0;
+        border-radius: 10px;
+        width: 350px;
+        height: 100px;    
+        font-size: 25px;
+        color: #ffffff;    
+    }
+        
+    #txtCaixaCadastro{
+            font-size: 22px;
+            margin-bottom: 15px;
+    }
+        
+    #caixaCadastro{
+            width: 595px;
+            height: 350px;
+            text-align: center;
+            font-size: 19px;
+            margin: auto;    
+            margin-top: 20%;
+            margin-bottom: 5%;
+            border: solid 1px #00A3FF;
+            border-radius: 22px;
+        }
+        
+    .cadastroVeiculo{
+            float: left;
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: left;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            margin-left: 55px;
+            margin-right: 55px;    
+        }
+        
+    #inputVeiculo{
+            height: 30px;
+            width: 181px;        
+            background-color: aliceblue;  
+            border: solid 1px black;
+        }
+    
+    .botao3{
+            background-color: #00A3FF;
+            border: 0;
+            border-radius: 8px;
+            font-size: 15px;
+            color: #ffffff;
+            width: 130px;
+            height: 45px;    
+        }
+        
+    .botao3:hover{
+            background-color: aliceblue;
+            color: #00A3FF;
+        }
+}
